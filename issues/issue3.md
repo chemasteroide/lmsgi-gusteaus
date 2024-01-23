@@ -24,10 +24,6 @@ El objetivo de este ejercicio es crear un menú de navegación estético y funci
 - [x] Añadir un efecto `:hover` que cambie el color de fondo del elemento del menú a un tono más oscuro o diferente.
 - [x] Considerar añadir un pequeño borde inferior o un cambio en el estilo de fuente en el elemento del menú activo o al pasar el mouse.
 
-### Responsividad:
-
-- [ ] Asegurarse de que el menú sea responsivo y se adapte a diferentes tamaños de pantalla, considerando un diseño de menú tipo "hamburguesa" para dispositivos móviles.
-
 ## Instrucciones Adicionales:
 
 Animar a los estudiantes a mantener una coherencia en el diseño con el resto del sitio web, reflejando la elegancia y el estilo del restaurante.
