@@ -22,6 +22,10 @@ div.encabezado img{
     height: 60px;
 }
 
+div.menu ul li{
+    display: inline;
+}
+
 div.menu ul li a{
     background-color: #a77e58;
     color: #ffffff;
@@ -31,6 +35,9 @@ div.menu ul li a{
 div.menu ul li a:hover {
     background-color: #8b6f47;
     transition-duration: 0.3s;
+    color: #5a3e36;
+    font-size: 20px;
+    border-bottom: 1px solid #a35555;
 }
 
 div.contenido {
@@ -54,4 +61,10 @@ div.pie {
 
 div.pie li {
     display: inline;
+}
+
+.menu {
+    background-color: #a77e58;
+    color: #ffffff;
+    font: 18px Helvetica, sans-serif;
 }
