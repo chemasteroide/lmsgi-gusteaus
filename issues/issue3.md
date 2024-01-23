@@ -8,21 +8,21 @@ El objetivo de este ejercicio es crear un menú de navegación estético y funci
 
 ### Estructura del menú de navegación:
 
-- [ ] Utilizar una lista horizontal para los elementos del menú (`<ul>` con `<li>`).
-- [ ] Añadir enlaces (`<a href="#">`) para secciones como "Inicio", "Sobre Nosotros", "Menú", "Reservas" y "Contacto".
+- [x] Utilizar una lista horizontal para los elementos del menú (`<ul>` con `<li>`).
+- [x] Añadir enlaces (`<a href="#">`) para secciones como "Inicio", "Sobre Nosotros", "Menú", "Reservas" y "Contacto".
 
 ### Estilos CSS del Menú:
 
-- [ ] Configurar el color de fondo del menú en `#a77e58` (tono marrón claro).
-- [ ] Definir el color del texto de los elementos del menú como `#ffffff` (blanco).
-- [ ] Seleccionar el tipo de letra para los elementos del menú: `'Helvetica', sans-serif`.
-- [ ] Establecer el tamaño del texto en `18px`.
-- [ ] Agregar una transición suave en el color del texto al pasar el mouse: cambiar a `#5a3e36` (marrón oscuro).
+- [x] Configurar el color de fondo del menú en `#a77e58` (tono marrón claro).
+- [x] Definir el color del texto de los elementos del menú como `#ffffff` (blanco).
+- [x] Seleccionar el tipo de letra para los elementos del menú: `'Helvetica', sans-serif`.
+- [x] Establecer el tamaño del texto en `18px`.
+- [x] Agregar una transición suave en el color del texto al pasar el mouse: cambiar a `#5a3e36` (marrón oscuro).
 
 ### Efectos Visuales y Estilos Adicionales:
 
-- [ ] Añadir un efecto `:hover` que cambie el color de fondo del elemento del menú a un tono más oscuro o diferente.
-- [ ] Considerar añadir un pequeño borde inferior o un cambio en el estilo de fuente en el elemento del menú activo o al pasar el mouse.
+- [x] Añadir un efecto `:hover` que cambie el color de fondo del elemento del menú a un tono más oscuro o diferente.
+- [x] Considerar añadir un pequeño borde inferior o un cambio en el estilo de fuente en el elemento del menú activo o al pasar el mouse.
 
 ### Responsividad:
 
