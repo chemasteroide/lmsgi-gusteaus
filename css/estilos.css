@@ -1,7 +1,10 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
 #contenedor {
     background-color: #fff8f0;
-<<<<<<< HEAD
-=======
     font: 16px 'Times new roman', serif;
 }
 
@@ -11,7 +14,12 @@ div.encabezado {
     font: 36px Georgia, serif;
     text-align: center;
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 900px;
+}
+
+div.encabezado img{
+    height: 60px;
 }
 
 div.menu ul li a{
@@ -38,9 +46,12 @@ div.sidebar {
 }
 
 div.pie {
-    background-color: #a77e58;
-    color: #ffffff;
+    background-color: #5a3e36;
+    color: #ecdcc6;
     font: 16px Helvetica, sans-serif;
     text-align: center;
->>>>>>> ejercicio-1
+}
+
+div.pie li {
+    display: inline;
 }
