@@ -26,7 +26,7 @@ El objetivo de este ejercicio es utilizar la propiedad float de CSS para organiz
 **Estilos Adicionales y Ajustes:**
 
 - [x] Asegurar que los textos y elementos dentro de ambas columnas estén bien alineados y espaciados.
-- [ ] Considerar estilos como bordes sutiles o fondos de colores claros para diferenciar visualmente las secciones del contenido principal y la barra lateral.
+- [x] Considerar estilos como bordes sutiles o fondos de colores claros para diferenciar visualmente las secciones del contenido principal y la barra lateral.
 
 ## Referencias:
 
