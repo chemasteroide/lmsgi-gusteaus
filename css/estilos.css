@@ -3,6 +3,14 @@
     padding: 0px;
 }
 
+p {
+    margin: 10px;
+}
+
+#menu + ul{
+    margin: 10px;
+}
+
 #contenedor {
     background-color: #fff8f0;
     font: 16px 'Times new roman', serif;
@@ -55,7 +63,7 @@ div.sidebar {
     color: #5a3e36;
     font: 18px Georgia, serif;
     float: right;
-    width: 26%;
+    width: 26.9%;
     padding: 2%;
 }
 
@@ -80,16 +88,24 @@ div.pie li {
     background-color: #a77e58;
     color: #ffffff;
     font: 18px Helvetica, sans-serif;
+    text-align: center;
 }
 
 div.contenido h2{
 border-top: solid;
+padding-top: 20px;
 }
-/**
+
 form{
-    background-color: aqua;
+    background-color: #e5ad78;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    border: solid #5a3e36 1px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
-**/
+
 input[type='text'],input[type='email'],input[type='tel']{
     border: #a77e58 solid 1px;
     padding: 10px;
@@ -102,6 +118,7 @@ input[type='submit'] {
     color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
+    display: block;
 }
 
 input[type='submit']:hover{
@@ -112,6 +129,16 @@ input[type='submit']:hover{
 label{
     font-size: 16px;
     display: block;
+}
+
+textarea{
+    resize: none;
+    background-color: #fff8f0;
+}
+
+#contacto{
+    border-top: solid;
+    padding-top: 20px;
 }
 
 /**
