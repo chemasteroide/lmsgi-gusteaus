@@ -17,7 +17,7 @@ Este ejercicio tiene como objetivo aplicar estilos básicos al documento HTML de
   - [x] Seleccionar el tipo de letra `'Georgia', serif`.
   - [x] Establecer el tamaño del texto a `36px`.
   - [x] Alinear el texto al centro.
-  - [ ] Ajustar la altura al tamaño de la imagen de cabecera.
+  - [x] Ajustar la altura al tamaño de la imagen de cabecera.
 
 - [x] Estilizar el Menú de Navegación (div.menu ul li a):
   - [x] Fijar el color de fondo en `#a77e58` (tono marrón claro).

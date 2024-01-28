@@ -8,25 +8,25 @@ El objetivo de este ejercicio es utilizar la propiedad float de CSS para organiz
 
 ### Contenido Principal (div.contenido):
 
-- [ ] Aplicar `float: left;` para que el contenido principal flote a la izquierda.
-- [ ] Establecer un ancho del 70% del contenedor, para dar espacio suficiente al contenido detallado sobre el restaurante.
-- [ ] Estilizar el contenido con márgenes, padding y tipo de letra que reflejen la elegancia del restaurante.
+- [x] Aplicar `float: left;` para que el contenido principal flote a la izquierda.
+- [x] Establecer un ancho del 70% del contenedor, para dar espacio suficiente al contenido detallado sobre el restaurante.
+- [x] Estilizar el contenido con márgenes, padding y tipo de letra que reflejen la elegancia del restaurante.
 
 ### Barra Lateral (div.sidebar):
 
-- [ ] Aplicar `float: right;` para que la barra lateral flote a la derecha.
-- [ ] Establecer un ancho del 30% del contenedor, adecuado para mostrar información secundaria como eventos especiales.
-- [ ] Asegurar que el estilo de la barra lateral sea coherente con el diseño general de la página.
+- [x] Aplicar `float: right;` para que la barra lateral flote a la derecha.
+- [x] Establecer un ancho del 30% del contenedor, adecuado para mostrar información secundaria como eventos especiales.
+- [x] Asegurar que el estilo de la barra lateral sea coherente con el diseño general de la página.
 
 ### Clearfix:
 
-- [ ] Implementar un `clearfix` en el div#contenedor para asegurar que contenga completamente a los elementos flotantes.
-- [ ] Esto evita problemas de desbordamiento y asegura que el pie de página se posicione correctamente.
+- [x] Implementar un `clearfix` en el div#contenedor para asegurar que contenga completamente a los elementos flotantes.
+- [x] Esto evita problemas de desbordamiento y asegura que el pie de página se posicione correctamente.
 
 **Estilos Adicionales y Ajustes:**
 
-- [ ] Asegurar que los textos y elementos dentro de ambas columnas estén bien alineados y espaciados.
-- [ ] Considerar estilos como bordes sutiles o fondos de colores claros para diferenciar visualmente las secciones del contenido principal y la barra lateral.
+- [x] Asegurar que los textos y elementos dentro de ambas columnas estén bien alineados y espaciados.
+- [x] Considerar estilos como bordes sutiles o fondos de colores claros para diferenciar visualmente las secciones del contenido principal y la barra lateral.
 
 ## Referencias:
 

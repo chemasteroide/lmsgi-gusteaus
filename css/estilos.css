@@ -1,25 +1,37 @@
-/* * {
+* {
     margin: 0px;
     padding: 0px;
-} */
+}
+
+p {
+    margin: 10px;
+}
+
+#menu + ul{
+    margin: 10px;
+}
 
 #contenedor {
     background-color: #fff8f0;
     font: 16px 'Times new roman', serif;
+    overflow: auto;
 }
 
 div.encabezado {
     background-image: url(../imgs/guesteaus.png);
-    color: #5a3e36;
+    color: white;
     font: 36px Georgia, serif;
     text-align: center;
     background-size: cover;
-    /* height: 100vh; */
     height: 900px;
 }
 
 div.encabezado img{
     height: 60px;
+}
+
+div.menu ul li{
+    display: inline;
 }
 
 div.menu ul li a{
@@ -31,18 +43,32 @@ div.menu ul li a{
 div.menu ul li a:hover {
     background-color: #8b6f47;
     transition-duration: 0.3s;
+    color: #5a3e36;
+    font-size: 20px;
+    border-bottom: 1px solid #a35555;
 }
 
 div.contenido {
     background-color: #fff8f0;
     color: #5a3e36;
     font: 18px Georgia, serif;
+    float: left;
+    width: 65%;
+    padding: 2%;
+    border-right:dashed #5a3e36 1px;
 }
 
 div.sidebar {
     background-color: #ecdcc6;
     color: #5a3e36;
     font: 18px Georgia, serif;
+    float: right;
+    width: 26.9%;
+    padding: 2%;
+}
+
+div.sidebar h2{
+text-align: center;
 }
 
 div.pie {
@@ -50,8 +76,157 @@ div.pie {
     color: #ecdcc6;
     font: 16px Helvetica, sans-serif;
     text-align: center;
+    width: 100%;
+    float: left;
+}
+
+div.pie a {
+    color: #c6d6ec;
 }
 
 div.pie li {
     display: inline;
+}
+
+.menu {
+    background-color: #a77e58;
+    color: #ffffff;
+    font: 18px Helvetica, sans-serif;
+    text-align: center;
+}
+
+div.contenido h2{
+border-top: solid;
+padding-top: 20px;
+}
+
+form{
+    background-color: #e5ad78;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 30%;
+    border: solid #5a3e36 1px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+input[type='text'],input[type='email'],input[type='tel']{
+    border: #a77e58 solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff8f0;
+}
+
+input[type='submit'] {
+    background-color: #5a3e36;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 25px;
+}
+
+input[type='submit']:hover{
+    background-color: #a77e58;
+    transition: 0.5s;
+}
+
+label{
+    font-size: 16px;
+    display: block;
+}
+
+textarea{
+    resize: none;
+    background-color: #fff8f0;
+}
+
+#contacto{
+    border-top: solid;
+    padding-top: 20px;
+}
+
+/**
+========================================
+menuEstrella.html
+========================================
+**/
+
+header{
+    color: white;
+    text-align: center;
+    height: 150px;
+    background-image: url(../imgs/guesteaus.png);
+    background-size: cover;
+    background-position: center;
+    border-bottom: #8b6f47 solid 1px;
+}
+
+.menu-estrella{
+    background-color: #ecdcc6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 1% 7% 1% 7%;
+    border: #5a3e36 solid 1px;
+}
+
+.menu-estrella h2{
+    border-bottom: 1px solid #5a3e36;
+    text-align: center;
+    color:#a77e58;
+    font: Georgia, serif;
+}
+
+h2 + ul {
+    margin-top: 5px;
+    list-style-type: none;
+    font:Helvetica, sans-serif;
+}
+
+[data-alergenos="mariscos"]{
+    background-color: rgb(255, 166, 0,0.3);
+}
+
+[data-alergenos="nueces"]{
+    background-color: rgb(169, 43, 43,0.3);
+}
+
+[data-alergenos="nueces mariscos"]{
+    background-color: rgb(95, 158, 160,0.3);
+}
+
+[data-alergenos="mariscos"]:hover{
+    background-color: rgb(255, 166, 0);
+}
+
+[data-alergenos="nueces"]:hover{
+    background-color: rgb(169, 43, 43);
+}
+
+[data-alergenos="nueces mariscos"]:hover{
+    background-color: rgb(95, 158, 160);
+}
+
+h2 + ul > li:hover {
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+div.alergenos{
+    margin-top: 10%;
+    border: solid 1px;
+    padding: 3%;
+}
+
+div.alergenos h3 {
+    border-bottom: #a77e58 1px solid;
+    margin-bottom: 10px;
+}
+
+div.alergenos ul li{
+    display: inline;
+    margin: 10px;
 }

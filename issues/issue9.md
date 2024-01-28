@@ -64,17 +64,17 @@ El objetivo es Desarrollar una página web para el "Menú Estrella" del restaura
 
 ### Estilización del menú
 
-- [ ] Aplicar estilos CSS para crear un diseño visualmente atractivo y coherente con el tema del restaurante.
-- [ ] Incluir estilos para encabezados, listas de platos y elementos individuales del menú.
+- [x] Aplicar estilos CSS para crear un diseño visualmente atractivo y coherente con el tema del restaurante.
+- [x] Incluir estilos para encabezados, listas de platos y elementos individuales del menú.
 
 ### Manejo de Alérgenos
 
-- [ ] Utilizar los atributos data-alergenos para identificar platos con alérgenos específicos y aplicar estilos distintivos a estos elementos.
-- [ ] Para platos con múltiples alérgenos, asegurarse de que el estilo aplicado sea claro y diferenciable.
+- [x] Utilizar los atributos data-alergenos para identificar platos con alérgenos específicos y aplicar estilos distintivos a estos elementos.
+- [x] Para platos con múltiples alérgenos, asegurarse de que el estilo aplicado sea claro y diferenciable.
 
 ### Interactividad y detalles de Alergenos
 
-- [ ] Implementar efectos :hover para resaltar los platos al pasar el mouse
-- [ ] Usar selectores avanzados en CSS para aplicar estilos basados en los valores de `data-alergenos`.
+- [x] Implementar efectos :hover para resaltar los platos al pasar el mouse
+- [x] Usar selectores avanzados en CSS para aplicar estilos basados en los valores de `data-alergenos`.
 
 
