@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú Estrella de Gusteau's</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="imgs/favicon.png"/>
 </head>
 <body>
     <header>
@@ -29,13 +30,30 @@
             <h2>Entrantes</h2>
             <ul>
                 <!-- Ítems de entrantes aquí -->
+                <li>Foie gras</li>
+                <li>Sopa de cebolla</li>
+                <li data-alergenos="mariscos">Gambas</li>
             </ul>
 
             <h2>Postres</h2>
             <ul>
                 <!-- Ítems de postres aquí -->
-            </ul>
+                <li>Helado de chocolate</li>
+                <li>Helado de fresa</li>
+                <li>Helado de ratatouille</li>
+                <li data-alergenos="mariscos">Helado de gamba</li>
+            </ul>  
+
+            <div class="alergenos">
+                <h3>Alérgenos</h3>
+                <ul>
+                    <li data-alergenos="mariscos">Mariscos</li>
+                    <li data-alergenos="nueces">Nueces</li>
+                    <li data-alergenos="nueces mariscos">Nueces y mariscos</li>
+                </ul>
+            </div>
         </section>
+
     </main>
 
     <footer>
