@@ -15,7 +15,6 @@ div.encabezado {
     font: 36px Georgia, serif;
     text-align: center;
     background-size: cover;
-    /* height: 100vh; */
     height: 900px;
 }
 
@@ -86,11 +85,11 @@ div.pie li {
 div.contenido h2{
 border-top: solid;
 }
-
+/**
 form{
     background-color: aqua;
 }
-
+**/
 input[type='text'],input[type='email'],input[type='tel']{
     border: #a77e58 solid 1px;
     padding: 10px;
@@ -113,4 +112,73 @@ input[type='submit']:hover{
 label{
     font-size: 16px;
     display: block;
+}
+
+/**
+========================================
+menuEstrella.html
+========================================
+**/
+
+header{
+    color: rgb(255, 180, 180);
+    text-align: center;
+    height: 150px;
+    background-image: url(../imgs/guesteaus.png);
+    background-size: cover;
+    background-position: center;
+    border-bottom: #8b6f47 solid 1px;
+}
+
+.menu-estrella{
+    background-color: #ecdcc6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 1% 7% 1% 7%;
+    border: #5a3e36 solid 1px;
+}
+
+.menu-estrella > h2{
+    border-bottom: 1px solid #5a3e36;
+    text-align: center;
+    color:#a77e58;
+    font: Georgia, serif;
+}
+
+h2 + ul {
+    margin-top: 5px;
+    list-style-type: none;
+    font:Helvetica, sans-serif;
+}
+
+[data-alergenos="mariscos"]{
+    background-color: rgb(255, 166, 0,0.3);
+}
+
+[data-alergenos="nueces"]{
+    background-color: rgb(169, 43, 43,0.3);
+}
+
+[data-alergenos="nueces mariscos"]{
+    background-color: rgb(95, 158, 160,0.3);
+}
+
+[data-alergenos="mariscos"]:hover{
+    background-color: rgb(255, 166, 0);
+}
+
+[data-alergenos="nueces"]:hover{
+    background-color: rgb(169, 43, 43);
+}
+
+[data-alergenos="nueces mariscos"]:hover{
+    background-color: rgb(95, 158, 160);
+}
+
+h2 + ul > li:hover {
+    font-size: 17px;
+    transition: 0.2s;
 }
