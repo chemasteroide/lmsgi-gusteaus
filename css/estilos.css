@@ -19,7 +19,7 @@ p {
 
 div.encabezado {
     background-image: url(../imgs/guesteaus.png);
-    color: #5a3e36;
+    color: white;
     font: 36px Georgia, serif;
     text-align: center;
     background-size: cover;
@@ -80,6 +80,10 @@ div.pie {
     float: left;
 }
 
+div.pie a {
+    color: #c6d6ec;
+}
+
 div.pie li {
     display: inline;
 }
@@ -119,6 +123,7 @@ input[type='submit'] {
     padding: 10px 15px;
     border-radius: 5px;
     display: block;
+    margin-top: 25px;
 }
 
 input[type='submit']:hover{
@@ -148,7 +153,7 @@ menuEstrella.html
 **/
 
 header{
-    color: rgb(255, 180, 180);
+    color: white;
     text-align: center;
     height: 150px;
     background-image: url(../imgs/guesteaus.png);
@@ -168,7 +173,7 @@ header{
     border: #5a3e36 solid 1px;
 }
 
-.menu-estrella > h2{
+.menu-estrella h2{
     border-bottom: 1px solid #5a3e36;
     text-align: center;
     color:#a77e58;
@@ -208,4 +213,20 @@ h2 + ul {
 h2 + ul > li:hover {
     font-size: 17px;
     transition: 0.2s;
+}
+
+div.alergenos{
+    margin-top: 10%;
+    border: solid 1px;
+    padding: 3%;
+}
+
+div.alergenos h3 {
+    border-bottom: #a77e58 1px solid;
+    margin-bottom: 10px;
+}
+
+div.alergenos ul li{
+    display: inline;
+    margin: 10px;
 }
